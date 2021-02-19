@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="css/home.css">
+ <link rel="stylesheet" href="css/tab.css">
+ <link rel="stylesheet" href="css/Gallery.css">
+ <link rel="stylesheet" href="css/noreservation.css">
+ <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="css/reservation.css">
+ <title>Home</title>
+</head>
+<body>
+ <section class="one">
+  <div class="navigation">
+   <img src="images/logo.png" alt="" class="logo">
+   <ul>
+    <li><a class="list" href="home.html">Home</a></li>
+    <li><a class="list" href="#Gallery">Gallery</a></li>
+    <li><a class="list" href="#ress">Reservation</a></li>
+    <li><a class="list" href="#cus">Contact Us</a></li>
+  </ul>
+  </div>
+
+  <div class="content1">
+   <div class="content1text">
+    <h1 class="content1h"><span class="goldentext">Affordability</span> at your fingertip</h1>
+    <p class="content1par"> <span class="goldentext">Luxury vehicules</span> at low-cost starts <span class="goldentext">10&euro;/day</span>  </p>
+   </div>
+   <div class="content1image">
+    <img src="images/Rolls Royce Car.png" alt="" class="content1img">
+   </div>
+  </div>
+ </section>
+
+ <section class="two">
+  <div class="twotitle">
+   <h1 class="twoh">Our <span class="goldentext">Benifets</span></h1>
+  </div>
+  <div class="content2">
+   <div class="cont1">
+    <img src="images/like.png" alt="" class="like">
+    <h1 class="likeh">Our Customers Always
+                      100% Satisfied</h1>
+    <p class="likep">Lorem ipsum dolor sit amet consectetur adipisicing elit sed don eiusmod tempor enim minim veniam quis notrud exercitation</p>
+   </div>
+   <div class="cont2">
+    <img src="images/pencil.png" alt="" class="note">
+    <h1 class="noteh">We Provide Easier
+                      &amp; Faster Bookings</h1>
+    <p class="notep">Lorem ipsum dolor sit amet consectetur adipisicing elit sed don eiusmod tempor enim minim veniam quis notrud exercitation</p>
+   </div>
+   <div class="cont3">
+    <img src="images/location.png" alt="" class="location">
+    <h1 class="locationh">Your Choice of
+                          Any Pickup Location</h1>
+    <p class="locationp">Lorem ipsum dolor sit amet consectetur adipisicing elit sed don eiusmod tempor enim minim veniam quis notrud exercitation</p>
+   </div>
+  </div>
+  <img src="images/triangle.png" alt="" class="triangle">
+ </section>
+
+ <section id="Gallery" id="Gallery1" class="three">
+   <h1 class="hthree">First Class Car Rental & Construction Services</h1>
+   <h class="carselect">Find Vehicules by Type</h>
+
+   <ul class="tabs">
+    <li data-tab-target="#moto" class="active tab">moto</li>
+    <li data-tab-target="#citadine" class="tab">City Cars</li>
+    <li data-tab-target="#compact" class="tab">compact</li>
+    <li data-tab-target="#berline" class="tab">Sedans</li>
+    <li data-tab-target="#utilitaire" class="tab">Utility</li>
+    <li data-tab-target="#camion" class="tab">Trucks</li>
+    <li data-tab-target="#Enginedechantier" class="tab">Dump Trucks</li>
+    
+  </ul>
+
+  <div class="tab-content">
+    <div id="moto" data-tab-content class="active">
+      <div class="cars">
+        <div class="car">
+         <img src="images/rebel500essence.png" alt="" class="carimage">
+         <div class="aboutcar">
+          <h class="carname">Honda Rebel 500</h>
+          <div class="options">
+           <div class="gearbx">
+            <img src="images/gearbox.png" alt="" class="gear">
+            <h class="geartype">Manual</h>
+           </div>
+           <div class="carb">
+            <img src="images/electric-hybride.png" alt="" class="energy">
+            <h class="energytype">Essence</h>
+           </div>
+       
+          </div>
+          <ul class="optslist">
+           <li class="ops">&check;Pay at pick-up</li>
+           <li class="ops">&check;Chilled AC</li>
+           <li class="ops">&check;Free cancellation</li>
+           <li class="ops">&check;Audio input</li>
+           <li class="ops">&check;Heated Seats</li>
+           <li class="ops">&check;Budget Vehicul</li>
+           <li class="ops">&check;Unlimited Mileage</li>
+           <li class="ops">&check;Bluetooth</li>
+          </ul>
+          <p class="price" id="pr">11.4&euro;/day</p>
+          <button id="HondaRebel500" onclick="showRes(HondaRebel500)" class="rent"><a href="#ress" class="rentr">RENT IT</a></button>
+         </div>
+        </div>
+      
+        <div class="car">
+         <img src="images/zeroselect.png" alt="" class="carimage">
+         <div class="aboutcar">
+          <h class="carname">Zero S</h>
+          <div class="options">
+           <div class="gearbx">
+            <img src="images/gearbox.png" alt="" class="gear">
+            <h class="geartype">Automatic</h>
+           </div>
+           <div class="carb">
+            <img src="images/electric-hybride.png" alt="" class="energy">
+            <h class="energytype">Electric</h>
+           </div>
+       
+          </div>
+          <ul class="optslist">
+           <li class="ops">&check;Pay at pick-up</li>
+           <li class="ops">&check;Chilled AC</li>
+           <li class="ops">&check;Free cancellation</li>
+           <li class="ops">&check;Audio input</li>
+           <li class="ops">&check;Heated Seats</li>
+           <li class="ops">&check;Budget Vehicul</li>
+           <li class="ops">&check;Unlimited Mileage</li>
+           <li class="ops">&check;Bluetooth</li>
+          </ul>
+          <p class="price" id="pr">10.5&euro;/day</p>
+          <button id="ZeroS" onclick="showRes(ZeroS)" class="rent"><a href="#ress" class="rentr">RENT IT</a></button>
+         </div>
+        </div>
+      
+      </div>
+    </div>
+
+    <div id="citadine" data-tab-content>
+      <div class="cars">
+        <div class="car">
+         <img src="images/fiat500electrique.png" alt="" class="carimage">
+         <div class="aboutcar">
+          <h class="carname">Fiat 500</h>
+          <div class="options">
+           <div class="gearbx">
+            <img src="images/gearbox.png" alt="" class="gear">
+            <h class="geartype">Automatic</h>
+           </div>
+           <div class="carb">
+            <img src="images/electric-hybride.png" alt="" class="energy">
+            <h class="energytype">Electric</h>
+           </div>
+       
+          </div>
+          <ul class="optslist">
+           <li class="ops">&check;Pay at pick-up</li>
+           <li class="ops">&check;Chilled AC</li>
+           <li class="ops">&check;Free cancellation</li>
+           <li class="ops">&check;Audio input</li>
+           <li class="ops">&check;Heated Seats</li>
+           <li class="ops">&check;Budget Vehicul</li>
+           <li class="ops">&check;Unlimited Mileage</li>
+           <li class="ops">&check;Bluetooth</li>
+          </ul>
+          <p class="price" id="pr">14.88&euro;/day</p>
+          <button id="Fiat500" onclick="showRes(Fiat500)" class="rent"><a href="#ress" class="rentr">RENT IT</a></button>
+         </div>
+        </div>
+       
+        <div class="car">
+         <img src="images/toyotayarishybride.png" alt="" class="carimage">
+         <div class="aboutcar">
+          <h class="carname">Toyota Yaris</h>
+          <div class="options">
+           <div class="gearbx">
+            <img src="images/gearbox.png" alt="" class="gear">
+            <h class="geartype">Automatic</h>
+           </div>
+           <div class="carb">
+            <img src="images/electric-hybride.png" alt="" class="energy">
+            <h class="energytype">Hybride</h>
+           </div>
+       
+          </div>
+          <ul class="optslist">
+           <li class="ops">&check;Pay at pick-up</li>
+           <li class="ops">&check;Chilled AC</li>
+           <li class="ops">&check;Free cancellation</li>
+           <li class="ops">&check;Audio input</li>
+           <li class="ops">&check;Heated Seats</li>
+           <li class="ops">&check;Budget Vehicul</li>
+           <li class="ops">&check;Unlimited Mileage</li>
+           <li class="ops">&check;Bluetooth</li>
+          </ul>
+          <p class="price" id="pr">15.36&euro;/day</p>
+          <button class="rent" id="ToyotaYaris" onclick="showRes(ToyotaYaris)"><a href="#ress" class="rentr">RENT IT</a></button>
+        </div>
+       </div>
+      
+       <div class="car">
+        <img src="images/peugeot_208essence.png" alt="" class="carimage">
+        <div class="aboutcar">
+         <h class="carname">Peugeot 208</h>
+         <div class="options">
+          <div class="gearbx">
+           <img src="images/gearbox.png" alt="" class="gear">
+           <h class="geartype">Automatic</h>
+          </div>
+          <div class="carb">
+           <img src="images/electric-hybride.png" alt="" class="energy">
+           <h class="energytype">Essence</h>
+          </div>
+      
+         </div>
+         <ul class="optslist">
+          <li class="ops">&check;Pay at pick-up</li>
+          <li class="ops">&check;Chilled AC</li>
+          <li class="ops">&check;Free cancellation</li>
+          <li class="ops">&check;Audio input</li>
+          <li class="ops">&check;Heated Seats</li>
+          <li class="ops">&check;Budget Vehicul</li>
+          <li class="ops">&check;Unlimited Mileage</li>
+          <li class="ops">&check;Bluetooth</li>
+         </ul>
+         <p class="price" id="pr">15.96&euro;/day</p>
+         <button class="rent" id="Peugeot208" onclick="showRes(Peugeot208)"><a href="#ress" class="rentr">RENT IT</a></button>
+        </div>
+       </div>
+      
+       <div class="car">
+        <img src="images/hyendaii20diesel.png" alt="" class="carimage">
+        <div class="aboutcar">
+         <h class="carname">Hyrndai i20</h>
+         <div class="options">
+          <div class="gearbx">
+           <img src="images/gearbox.png" alt="" class="gear">
+           <h class="geartype">Automatic</h>
+          </div>
+          <div class="carb">
+           <img src="images/electric-hybride.png" alt="" class="energy">
+           <h class="energytype">Diesel</h>
+          </div>
+      
+         </div>
+         <ul class="optslist">
+          <li class="ops">&check;Pay at pick-up</li>
+          <li class="ops">&check;Chilled AC</li>
+          <li class="ops">&check;Free cancellation</li>
+          <li class="ops">&check;Audio input</li>
+          <li class="ops">&check;Heated Seats</li>
+          <li class="ops">&check;Budget Vehicul</li>
+          <li class="ops">&check;Unlimited Mileage</li>
+          <li class="ops">&check;Bluetooth</li>
+         </ul>
+         <p class="price" id="pr">16.8&euro;/day</p>
+         <button class="rent" id="Hyendaii20" onclick="showRes(Hyendaii20)"><a href="#ress" class="rentr">RENT IT</a></button>
+        </div>
+       </div>
+      
+      </div>
+    </div>
+
+    <div id="compact" data-tab-content>
+      <div class="cars">
+        <div class="car">
+         <img src="images/minicooperhybride.png" alt="" class="carimage">
+         <div class="aboutcar">
+          <h class="carname">Mini Cooper</h>
+          <div class="options">
+           <div class="gearbx">
+            <img src="images/gearbox.png" alt="" class="gear">
+            <h class="geartype">Manual</h>
+           </div>
+           <div class="carb">
+            <img src="images/electric-hybride.png" alt="" class="energy">
+            <h class="energytype">Hybride</h>
+           </div>
+       
+          </div>
+          <ul class="optslist">
+           <li class="ops">&check;Pay at pick-up</li>
+           <li class="ops">&check;Chilled AC</li>
+           <li class="ops">&check;Free cancellation</li>
+           <li class="ops">&check;Audio input</li>
+           <li class="ops">&check;Heated Seats</li>
+           <li class="ops">&check;Budget Vehicul</li>
+           <li class="ops">&check;Unlimited Mileage</li>
+           <li class="ops">&check;Bluetooth</li>
+          </ul>
+          <p class="price" id="pr">15.26&euro;/day</p>
+          <button class="rent" id="MiniCooper" onclick="showRes(MiniCooper)"><a href="#ress" class="rentr">RENT IT</a></button>
+         </div>
+        </div>
+      
+        <div class="car">
+         <img src="images/mazda3essence.png" alt="" class="carimage">
+         <div class="aboutcar">
+          <h class="carname">Mazda 3</h>
+          <div class="options">
+           <div class="gearbx">
+            <img src="images/gearbox.png" alt="" class="gear">
+            <h class="geartype">Manual</h>
+           </div>
+           <div class="carb">
+            <img src="images/electric-hybride.png" alt="" class="energy">
+            <h class="energytype">Essence</h>
+           </div>
+       
+          </div>
+          <ul class="optslist">
+           <li class="ops">&check;Pay at pick-up</li>
+           <li class="ops">&check;Chilled AC</li>
+           <li class="ops">&check;Free cancellation</li>
+           <li class="ops">&check;Audio input</li>
+           <li class="ops">&check;Heated Seats</li>
+           <li class="ops">&check;Budget Vehicul</li>
+           <li class="ops">&check;Unlimited Mileage</li>
+           <li class="ops">&check;Bluetooth</li>
+          </ul>
+          <p class="price" id="pr">15.96&euro;/day</p>
+          <button class="rent" id="Mazda3" onclick="showRes(Mazda3)"><a href="#ress" class="rentr">RENT IT</a></button>
+         </div>
+        </div>
+       
+        <div class="car">
+         <img src="images/vwgolfdiesel.png" alt="" class="carimage">
+         <div class="aboutcar">
+          <h class="carname">VW Golf</h>
+          <div class="options">
+           <div class="gearbx">
+            <img src="images/gearbox.png" alt="" class="gear">
+            <h class="geartype">Manual</h>
+           </div>
+           <div class="carb">
+            <img src="images/electric-hybride.png" alt="" class="energy">
+            <h class="energytype">Diesel</h>
+           </div>
+       
+          </div>
+          <ul class="optslist">
+           <li class="ops">&check;Pay at pick-up</li>
+           <li class="ops">&check;Chilled AC</li>
+           <li class="ops">&check;Free cancellation</li>
+           <li class="ops">&check;Audio input</li>
+           <li class="ops">&check;Heated Seats</li>
+           <li class="ops">&check;Budget Vehicul</li>
+           <li class="ops">&check;Unlimited Mileage</li>
+           <li class="ops">&check;Bluetooth</li>
+          </ul>
+          <p class="price" id="pr">16.94&euro;/day</p>
+          <button class="rent" id="VwGolf" onclick="showRes(VwGolf)"><a href="#ress" class="rentr">RENT IT</a></button>
+         </div>
+        </div>
+        
+      
+      </div>
+    </div>
+
+    <div id="berline" data-tab-content>
+     <div class="cars">
+  <div class="car">
+   <img src="images/hyendaisonatahybride.png" alt="" class="carimage">
+   <div class="aboutcar">
+    <h class="carname">Hyendai Sonata</h>
+    <div class="options">
+     <div class="gearbx">
+      <img src="images/gearbox.png" alt="" class="gear">
+      <h class="geartype">Automatic</h>
+     </div>
+     <div class="carb">
+      <img src="images/electric-hybride.png" alt="" class="energy">
+      <h class="energytype">Hybride</h>
+     </div>
+ 
+    </div>
+    <ul class="optslist">
+     <li class="ops">&check;Pay at pick-up</li>
+     <li class="ops">&check;Chilled AC</li>
+     <li class="ops">&check;Free cancellation</li>
+     <li class="ops">&check;Audio input</li>
+     <li class="ops">&check;Heated Seats</li>
+     <li class="ops">&check;Budget Vehicul</li>
+     <li class="ops">&check;Unlimited Mileage</li>
+     <li class="ops">&check;Bluetooth</li>
+    </ul>
+    <p class="price" id="pr">25.6&euro;/day</p>
+    <button class="rent" id="HyendaiSonata" onclick="showRes(HyendaiSonata)" ><a href="#ress" class="rentr">RENT IT</a></button>
+   </div>
+  </div>
+
+  <div class="car">
+   <img src="images/mercedescclassessence.png" alt="" class="carimage">
+   <div class="aboutcar">
+    <h class="carname">Mercedes C Class</h>
+    <div class="options">
+     <div class="gearbx">
+      <img src="images/gearbox.png" alt="" class="gear">
+      <h class="geartype">Automatic</h>
+     </div>
+     <div class="carb">
+      <img src="images/electric-hybride.png" alt="" class="energy">
+      <h class="energytype">Essence</h>
+     </div>
+ 
+    </div>
+    <ul class="optslist">
+     <li class="ops">&check;Pay at pick-up</li>
+     <li class="ops">&check;Chilled AC</li>
+     <li class="ops">&check;Free cancellation</li>
+     <li class="ops">&check;Audio input</li>
+     <li class="ops">&check;Heated Seats</li>
+     <li class="ops">&check;Budget Vehicul</li>
+     <li class="ops">&check;Unlimited Mileage</li>
+     <li class="ops">&check;Bluetooth</li>
+    </ul>
+    <p class="price" id="pr">26.6&euro;/day</p>
+    <button class="rent" id="MercedesCClass" onclick="showRes(MercedesCClass)"><a href="#ress" class="rentr">RENT IT</a></button>
+   </div>
+  </div>
+ 
+  <div class="car">
+   <img src="images/bmw7seriesdiesel.png" alt="" class="carimage">
+   <div class="aboutcar">
+    <h class="carname">BMW 7 Series</h>
+    <div class="options">
+     <div class="gearbx">
+      <img src="images/gearbox.png" alt="" class="gear">
+      <h class="geartype">Automatic</h>
+     </div>
+     <div class="carb">
+      <img src="images/electric-hybride.png" alt="" class="energy">
+      <h class="energytype">Diesel</h>
+     </div>
+ 
+    </div>
+    <ul class="optslist">
+     <li class="ops">&check;Pay at pick-up</li>
+     <li class="ops">&check;Chilled AC</li>
+     <li class="ops">&check;Free cancellation</li>
+     <li class="ops">&check;Audio input</li>
+     <li class="ops">&check;Heated Seats</li>
+     <li class="ops">&check;Budget Vehicul</li>
+     <li class="ops">&check;Unlimited Mileage</li>
+     <li class="ops">&check;Bluetooth</li>
+    </ul>
+    <p class="price" id="pr">28&euro;/day</p>
+    <button class="rent" id="Bmw7Series" onclick="showRes(Bmw7Series)" ><a href="#ress" class="rentr">RENT IT</a></button>
+   </div>
+  </div>
+  
+
+</div>
+   </div>
+
+   <div id="utilitaire" data-tab-content>
+    <div class="cars">
+      <div class="car">
+       <img src="images/Mercedes-Citaindiesel.png" alt="" class="carimage">
+       <div class="aboutcar">
+        <h class="carname">Mercedes Citan</h>
+        <div class="options">
+         <div class="gearbx">
+          <img src="images/gearbox.png" alt="" class="gear">
+          <h class="geartype">Manual</h>
+         </div>
+         <div class="carb">
+          <img src="images/electric-hybride.png" alt="" class="energy">
+          <h class="energytype">Diesel</h>
+         </div>
+     
+        </div>
+        <ul class="optslist">
+         <li class="ops">&check;Pay at pick-up</li>
+         <li class="ops">&check;Chilled AC</li>
+         <li class="ops">&check;Free cancellation</li>
+         <li class="ops">&check;Audio input</li>
+         <li class="ops">&check;Heated Seats</li>
+         <li class="ops">&check;Budget Vehicul</li>
+         <li class="ops">&check;Unlimited Mileage</li>
+         <li class="ops">&check;Bluetooth</li>
+        </ul>
+        <p class="price" id="pr">19.36&euro;/day</p>
+        <button class="rent" id="MercedesCitan" onclick="showRes(MercedesCitan)" ><a href="#ress" class="rentr">RENT IT</a></button>
+       </div>
+      </div>
+    
+    </div>
+   </div>
+
+   <div id="Enginedechantier" data-tab-content>
+    <div class="cars">
+      <div class="car">
+       <img src="images/engine1.png" alt="" class="carimage">
+       <div class="aboutcar">
+        <h class="carname">Random Name</h>
+        <div class="options">
+         <div class="gearbx">
+          <img src="images/gearbox.png" alt="" class="gear">
+          <h class="geartype">Manual</h>
+         </div>
+         <div class="carb">
+          <img src="images/electric-hybride.png" alt="" class="energy">
+          <h class="energytype">Diesel</h>
+         </div>
+     
+        </div>
+        <ul class="optslist">
+         <li class="ops">&check;Pay at pick-up</li>
+         <li class="ops">&check;Chilled AC</li>
+         <li class="ops">&check;Free cancellation</li>
+         <li class="ops">&check;Audio input</li>
+         <li class="ops">&check;Heated Seats</li>
+         <li class="ops">&check;Budget Vehicul</li>
+         <li class="ops">&check;Unlimited Mileage</li>
+         <li class="ops">&check;Bluetooth</li>
+        </ul>
+        <p class="price" id="pr">1089&euro;/day</p>
+        <button class="rent" id="Engine1" onclick="showRes(Engine2)" ><a href="#ress" class="rentr">RENT IT</a></button>
+       </div>
+      </div>
+
+      <div class="car">
+        <img src="images/engine2.png" alt="" class="carimage">
+        <div class="aboutcar">
+         <h class="carname">Random name</h>
+         <div class="options">
+          <div class="gearbx">
+           <img src="images/gearbox.png" alt="" class="gear">
+           <h class="geartype">Manual</h>
+          </div>
+          <div class="carb">
+           <img src="images/electric-hybride.png" alt="" class="energy">
+           <h class="energytype">Essence</h>
+          </div>
+      
+         </div>
+         <ul class="optslist">
+          <li class="ops">&check;Pay at pick-up</li>
+          <li class="ops">&check;Chilled AC</li>
+          <li class="ops">&check;Free cancellation</li>
+          <li class="ops">&check;Audio input</li>
+          <li class="ops">&check;Heated Seats</li>
+          <li class="ops">&check;Budget Vehicul</li>
+          <li class="ops">&check;Unlimited Mileage</li>
+          <li class="ops">&check;Bluetooth</li>
+         </ul>
+         <p class="price" id="pr">1026&euro;/day</p>
+         <button class="rent" id="Engine2" onclick="showRes(Engine2)"><a href="#ress" class="rentr">RENT IT</a></button>
+        </div>
+       </div>
+    
+    </div>
+  </div>
+
+  <div id="camion" data-tab-content>
+    <div class="cars">
+      <div class="car">
+       <img src="images/mercedesaxordiesel.png" alt="" class="carimage">
+       <div class="aboutcar">
+        <h class="carname">Mercedes Axor</h>
+        <div class="options">
+         <div class="gearbx">
+          <img src="images/gearbox.png" alt="" class="gear">
+          <h class="geartype">Automatic</h>
+         </div>
+         <div class="carb">
+          <img src="images/electric-hybride.png" alt="" class="energy">
+          <h class="energytype">Diesel</h>
+         </div>
+     
+        </div>
+        <ul class="optslist">
+         <li class="ops">&check;Pay at pick-up</li>
+         <li class="ops">&check;Chilled AC</li>
+         <li class="ops">&check;Free cancellation</li>
+         <li class="ops">&check;Audio input</li>
+         <li class="ops">&check;Heated Seats</li>
+         <li class="ops">&check;Budget Vehicul</li>
+         <li class="ops">&check;Unlimited Mileage</li>
+         <li class="ops">&check;Bluetooth</li>
+        </ul>
+        <p class="price" id="pr">350&euro;/day</p>
+        <button class="rent" id="MercedesAxor" onclick="showRes(MercedesAxor)"> <a href="#ress" class="rentr">RENT IT</a></button>
+       </div>
+      </div> 
+    </div>
+ </section>
+
+ <section class="four">
+   <img src="images/triangle1.png" alt="" class="triangle1">
+</section>
+<span id="ress"></span>
+<section id="Reservation" class="five">
+    <div class="headerfive">
+     <h1 class="reservationhead">Oops ! You have not checked our gallery of first class vhicules</h1>
+     <h4 class="reservationsubheader">Click the button bellow to take a look</h4>
+    </div>
+    <button class="backtogallery"> <a href="#Gallery" class="backtogallery">CHECK IT OUT</a></button>
+ </section>
+
+ 
+
+ <section id="dispRebel500" class="five" style="display: none">
+  <div class="headerfive">
+   <h1 class="reservationhead">Make your trip enjoyable</h1>
+   <h4 class="reservationsubheader">Rent it out !</h4>
+  </div>
+  <div class="reserve">
+   <div class="carinfo">
+    <img src="images/rebel500essence.png" alt="" class="optionimage">
+    <h class="optionname">Honda Rebel 500</h>
+    <h class="priceperday"> <span id="priceperday1">11.4</span>&euro;/day</h>
+   </div>
+   <div class="totaleprice">
+    <div class="netprice"><h class="netp"><span id="netpricee">11.4</span> Euros</h></div>
+    <h class="daysneeded">For how many days you want the vehicule ?</h>
+    <input type="text" min="1" id="days" class="days">
+    <button class="submitpayment" id="submitpayment">Reserve it</button>
+   </div>
+  </div>
+ </section>
+
+
+ <section id="dispZeroS" class="five" style="display: none">
+  <div class="headerfive">
+   <h1 class="reservationhead">Make your trip enjoyable</h1>
+   <h4 class="reservationsubheader">Rent it out !</h4>
+  </div>
+  <div class="reserve">
+   <div class="carinfo">
+    <img src="images/zeroselectr.png" alt="" class="optionimage">
+    <h class="optionname">Zero S</h>
+    <h class="priceperday"> <span id="priceperday1">10.5</span>&euro;/day</h>
+   </div>
+   <div class="totaleprice">
+    <div class="netprice"><h class="netp"><span id="netpricee">10.5</span> Euros</h></div>
+    <h class="daysneeded">For how many days you want the vehicule ?</h>
+    <input type="texy" min="1" id="days" class="days">
+    <button class="submitpayment" id="submitpayment">Reserve it</button>
+   </div>
+  </div>
+ </section>
+
+
+ <section id="dispFiat500" class="five" style="display: none">
+  <div class="headerfive">
+   <h1 class="reservationhead">Make your trip enjoyable</h1>
+   <h4 class="reservationsubheader">Rent it out !</h4>
+  </div>
+  <div class="reserve">
+   <div class="carinfo">
+    <img src="images/fiat500electriquer.png" alt="" class="optionimage">
+    <h class="optionname">Fiat 500</h>
+    <h class="priceperday"> <span id="priceperday1">14.88</span>&euro;/day</h>
+   </div>
+   <div class="totaleprice">
+    <div class="netprice"><h class="netp"><span id="netpricee">14.88</span> Euros</h></div>
+    <h class="daysneeded">For how many days you want the vehicule ?</h>
+    <input type="text id="days" class="days">
+    <button class="submitpayment" id="submitpayment">Reserve it</button>
+   </div>
+  </div>
+ </section>
+
+ <section id="dispToyotaYaris" class="five" style="display: none">
+  <div class="headerfive">
+   <h1 class="reservationhead">Make your trip enjoyable</h1>
+   <h4 class="reservationsubheader">Rent it out !</h4>
+  </div>
+  <div class="reserve">
+   <div class="carinfo">
+    <img src="images/toyotayarishybrider.png" alt="" class="optionimage">
+    <h class="optionname">Toyota Yaris</h>
+    <h class="priceperday"> <span id="priceperday1">15.36</span>&euro;/day</h>
+   </div>
+   <div class="totaleprice">
+    <div class="netprice"><h class="netp"><span id="netpricee">15.36</span> Euros</h></div>
+    <h class="daysneeded">For how many days you want the vehicule ?</h>
+    <input type="text id="days" class="days">
+    <button class="submitpayment" id="submitpayment">Reserve it</button>
+   </div>
+  </div>
+ </section>
+
+
+ <section id="dispPeugeot208" class="five" style="display: none">
+  <div class="headerfive">
+   <h1 class="reservationhead">Make your trip enjoyable</h1>
+   <h4 class="reservationsubheader">Rent it out !</h4>
+  </div>
+  <div class="reserve">
+   <div class="carinfo">
+    <img src="images/peugeot_208essencer.png" alt="" class="optionimage">
+    <h class="optionname">Peugeot 208</h>
+    <h class="priceperday"> <span id="priceperday1">15.96</span>&euro;/day</h>
+   </div>
+   <div class="totaleprice">
+    <div class="netprice"><h class="netp"><span id="netpricee">15.96</span> Euros</h></div>
+    <h class="daysneeded">For how many days you want the vehicule ?</h>
+    <input type="text id="days" class="days">
+    <button class="submitpayment" id="submitpayment">Reserve it</button>
+   </div>
+  </div>
+ </section>
+
+
+ <section id="dispHyendaii20" class="five" style="display: none">
+  <div class="headerfive">
+   <h1 class="reservationhead">Make your trip enjoyable</h1>
+   <h4 class="reservationsubheader">Rent it out !</h4>
+  </div>
+  <div class="reserve">
+   <div class="carinfo">
+    <img src="images/hyendaii20diesel.png" alt="" class="optionimage">
+    <h class="optionname">Hyendai i20</h>
+    <h class="priceperday"> <span id="priceperday1">16.8</span>&euro;/day</h>
+   </div>
+   <div class="totaleprice">
+    <div class="netprice"><h class="netp"><span id="netpricee">16.8</span> Euros</h></div>
+    <h class="daysneeded">For how many days you want the vehicule ?</h>
+    <input type="text id="days" class="days">
+    <button class="submitpayment" id="submitpayment">Reserve it</button>
+   </div>
+  </div>
+ </section>
+
+
+ <section id="dispMiniCooper" class="five" style="display: none">
+  <div class="headerfive">
+   <h1 class="reservationhead">Make your trip enjoyable</h1>
+   <h4 class="reservationsubheader">Rent it out !</h4>
+  </div>
+  <div class="reserve">
+   <div class="carinfo">
+    <img src="images/minicooperhybride.png" alt="" class="optionimage">
+    <h class="optionname">Mini Cooper</h>
+    <h class="priceperday"> <span id="priceperday1">15.26</span>&euro;/day</h>
+   </div>
+   <div class="totaleprice">
+    <div class="netprice"><h class="netp"><span id="netpricee">15.26</span> Euros</h></div>
+    <h class="daysneeded">For how many days you want the vehicule ?</h>
+    <input type="text id="days" class="days">
+    <button class="submitpayment" id="submitpayment">Reserve it</button>
+   </div>
+  </div>
+ </section>
+
+
+ <section id="dispMazda3" class="five" style="display: none">
+  <div class="headerfive">
+   <h1 class="reservationhead">Make your trip enjoyable</h1>
+   <h4 class="reservationsubheader">Rent it out !</h4>
+  </div>
+  <div class="reserve">
+   <div class="carinfo">
+    <img src="images/mazda3essence.png" alt="" class="optionimage">
+    <h class="optionname">Mazda 3</h>
+    <h class="priceperday"> <span id="priceperday1">15.96</span>&euro;/day</h>
+   </div>
+   <div class="totaleprice">
+    <div class="netprice"><h class="netp"><span id="netpricee">15.96</span> Euros</h></div>
+    <h class="daysneeded">For how many days you want the vehicule ?</h>
+    <input type="text id="days" class="days">
+    <button class="submitpayment" id="submitpayment">Reserve it</button>
+   </div>
+  </div>
+ </section>
+
+
+ <section id="dispVwGolf" class="five" style="display: none">
+  <div class="headerfive">
+   <h1 class="reservationhead">Make your trip enjoyable</h1>
+   <h4 class="reservationsubheader">Rent it out !</h4>
+  </div>
+  <div class="reserve">
+   <div class="carinfo">
+    <img src="images/vwgolfdiesel.png" alt="" class="optionimage">
+    <h class="optionname">VW Golf</h>
+    <h class="priceperday"> <span id="priceperday1">16.94</span>&euro;/day</h>
+   </div>
+   <div class="totaleprice">
+    <div class="netprice"><h class="netp"><span id="netpricee">16.94</span> Euros</h></div>
+    <h class="daysneeded">For how many days you want the vehicule ?</h>
+    <input type="text id="days" class="days">
+    <button class="submitpayment" id="submitpayment">Reserve it</button>
+   </div>
+  </div>
+ </section>
+
+
+ <section id="dispHyendaiSonata" class="five" style="display: none">
+  <div class="headerfive">
+   <h1 class="reservationhead">Make your trip enjoyable</h1>
+   <h4 class="reservationsubheader">Rent it out !</h4>
+  </div>
+  <div class="reserve">
+   <div class="carinfo">
+    <img src="images/hyendaisonatahybride.png" alt="" class="optionimage">
+    <h class="optionname">Hyendai Sonata</h>
+    <h class="priceperday"> <span id="priceperday1">25.6</span>&euro;/day</h>
+   </div>
+   <div class="totaleprice">
+    <div class="netprice"><h class="netp"><span id="netpricee">25.6</span> Euros</h></div>
+    <h class="daysneeded">For how many days you want the vehicule ?</h>
+    <input type="text id="days" class="days">
+    <button class="submitpayment" id="submitpayment">Reserve it</button>
+   </div>
+  </div>
+ </section>
+
+
+ <section id="dispMercedesCClass" class="five" style="display: none">
+  <div class="headerfive">
+   <h1 class="reservationhead">Make your trip enjoyable</h1>
+   <h4 class="reservationsubheader">Rent it out !</h4>
+  </div>
+  <div class="reserve">
+   <div class="carinfo">
+    <img src="images/mercedescclassessence.png" alt="" class="optionimage">
+    <h class="optionname">Mercedes C Class</h>
+    <h class="priceperday"> <span id="priceperday1">26.6</span>&euro;/day</h>
+   </div>
+   <div class="totaleprice">
+    <div class="netprice"><h class="netp"><span id="netpricee">26.6</span> Euros</h></div>
+    <h class="daysneeded">For how many days you want the vehicule ?</h>
+    <input type="text id="days" class="days">
+    <button class="submitpayment" id="submitpayment">Reserve it</button>
+   </div>
+  </div>
+ </section>
+
+
+ <section id="dispBmw7Series" class="five" style="display: none">
+  <div class="headerfive">
+   <h1 class="reservationhead">Make your trip enjoyable</h1>
+   <h4 class="reservationsubheader">Rent it out !</h4>
+  </div>
+  <div class="reserve">
+   <div class="carinfo">
+    <img src="images/bmw7seriesdiesel.png" alt="" class="optionimage">
+    <h class="optionname">BMW 7 Series</h>
+    <h class="priceperday"> <span id="priceperday1">28</span>&euro;/day</h>
+   </div>
+   <div class="totaleprice">
+    <div class="netprice"><h class="netp"><span id="netpricee">28</span> Euros</h></div>
+    <h class="daysneeded">For how many days you want the vehicule ?</h>
+    <input type="text id="days" class="days">
+    <button class="submitpayment" id="submitpayment">Reserve it</button>
+   </div>
+  </div>
+ </section>
+
+
+ <section id="dispMercedesCitan" class="five" style="display: none">
+  <div class="headerfive">
+   <h1 class="reservationhead">Make your trip enjoyable</h1>
+   <h4 class="reservationsubheader">Rent it out !</h4>
+  </div>
+  <div class="reserve">
+   <div class="carinfo">
+    <img src="images/Mercedes-Citaindiesel.png" alt="" class="optionimage">
+    <h class="optionname">Mercedes Citan</h>
+    <h class="priceperday"> <span id="priceperday1">19.36</span>&euro;/day</h>
+   </div>
+   <div class="totaleprice">
+    <div class="netprice"><h class="netp"><span id="netpricee">19.36</span> Euros</h></div>
+    <h class="daysneeded">For how many days you want the vehicule ?</h>
+    <input type="text id="days" class="days">
+    <button class="submitpayment" id="submitpayment">Reserve it</button>
+   </div>
+  </div>
+ </section>
+
+
+ <section id="dispMercedesAxor" class="five" style="display: none">
+  <div class="headerfive">
+   <h1 class="reservationhead">Make your trip enjoyable</h1>
+   <h4 class="reservationsubheader">Rent it out !</h4>
+  </div>
+  <div class="reserve">
+   <div class="carinfo">
+    <img src="images/mercedesaxordiesel.png" alt="" class="optionimage">
+    <h class="optionname">Mercedes Axor</h>
+    <h class="priceperday"> <span id="priceperday1">350</span>&euro;/day</h>
+   </div>
+   <div class="totaleprice">
+    <div class="netprice"><h class="netp"><span id="netpricee">350</span> Euros</h></div>
+    <h class="daysneeded">For how many days you want the vehicule ?</h>
+    <input type="text id="days" class="days">
+    <button class="submitpayment" id="submitpayment">Reserve it</button>
+   </div>
+  </div>
+ </section>
+
+
+ <section id="dispEngine1" class="five" style="display: none">
+  <div class="headerfive">
+   <h1 class="reservationhead">Make your trip enjoyable</h1>
+   <h4 class="reservationsubheader">Rent it out !</h4>
+  </div>
+  <div class="reserve">
+   <div class="carinfo">
+    <img src="images/engine1r.png" alt="" class="optionimage">
+    <h class="optionname">Random Name</h>
+    <h class="priceperday"> <span id="priceperday1">1089</span>&euro;/day</h>
+   </div>
+   <div class="totaleprice">
+    <div class="netprice"><h class="netp"><span id="netpricee">1089</span> Euros</h></div>
+    <h class="daysneeded">For how many days you want the vehicule ?</h>
+    <input type="text id="days" class="days">
+    <button class="submitpayment" id="submitpayment">Reserve it</button>
+   </div>
+  </div>
+ </section>
+
+
+ <section id="dispEngine2" class="five" style="display: none">
+  <div class="headerfive">
+   <h1 class="reservationhead">Make your trip enjoyable</h1>
+   <h4 class="reservationsubheader">Rent it out !</h4>
+  </div>
+  <div class="reserve">
+   <div class="carinfo">
+    <img src="images/engine2r.png" alt="" class="optionimage">
+    <h class="optionname">Random Name</h>
+    <h class="priceperday"> <span id="priceperday1">1026</span>&euro;/day</h>
+   </div>
+   <div class="totaleprice">
+    <div class="netprice"><h class="netp"><span id="netpricee">1026</span> Euros</h></div>
+    <h class="daysneeded">For how many days you want the vehicule ?</h>
+    <input type="text id="days" class="days">
+    <button class="submitpayment" id="submitpayment">Reserve it</button>
+   </div>
+  </div>
+ </section>
+
+ <section class="six" >
+   <div class="sixheadercontainer" id="cus">
+     <h1 class="sixheader" >We need your feedback. That’s how we improve.</h1>
+     <h4 class="sixsubheader">Feel free to contact us</h4>
+   </div>
+   <div class="contactcontainer">
+     <div class="local"><img src="images/backgroundmap.jpg" alt="" class="backgroundmap"></div>
+     <div class="contactdata">
+      <label for="fname">Full Name</label>
+      <input type="text" id="fname" name="fullname" placeholder="Full Name ..">
+  
+  
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Your Email ..">
+  
+      <label for="Subject">Subject</label>
+      <input type="text" id="subject" name="subject" placeholder="Subject .. ">
+  
+  
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+     </div>
+   </div>
+ </section>
+
+
+  <section class="footer">
+    <div class="footerlogo"><img src="images/logo.png" alt="" class="ftrlogo"></div>
+    <div class="footerlogo"> <img src="images/instagram.png" alt="" class="flogo"> <img src="images/facebook.png" alt="" class="flogo"> <img src="images/youtube.png" alt="" class="flogo"> </div>
+  </section>
+
+
+ <script src="js/home.js" defer></script>
+ <script src="js/reservation.js"></script>
+
+ 
+
+</body>
+</html>

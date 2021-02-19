@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+*{
+ margin: 0;
+ padding: 0;
+}
+
+.five{
+ background-color: #292929;
+ padding: 30px;
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ padding-bottom: 60px;
+ background-size: cover;
+ background-image: url(../images/barrr.png);
+ background-position: center;
+
+}
+
+.headerfive{
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ padding-top: 30px;
+ padding-bottom: 50px;
+ text-align: center;
+}
+.reservationhead{
+ color: #CFB53B ;
+ font-size: 35px;
+ font-weight:normal;
+ font-family: poppins;
+}
+
+.reservationsubheader{
+ color: white;
+ font-family: poppins;
+ font-weight: normal;
+ font-size: 25px;
+}
+
+.reserve{
+ display: flex;
+ flex-direction: row;
+ background-color: #2c2c2c;
+ gap: 100px;
+ justify-content: center;
+ border: solid #CFB53B 3px;
+ padding: 30px 60px 30px 60px;
+ width: 65%;
+ align-self: center;
+}
+
+.carinfo{
+ padding:20px;
+ height: 450px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ text-align: center;
+}
+
+.totaleprice{
+ padding:20px;
+ height: 450px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ gap: 30px;
+ text-align: center;
+}
+
+.optionname{
+ font-size: 20px;
+ color: whitesmoke ;
+ font-family: poppins;
+}
+
+.priceperday{
+ font-size: 30px;
+ color: #CFB53B ;
+ font-family: poppins;
+}
+
+.netp{
+ font-size: 60px;
+ font-family: poppins;
+ color: #CFB53B ;
+}
+.netprice{
+ height: 200px;
+ display: flex;
+ justify-content: center;
+ text-align: center;
+ flex-direction: column;
+}
+
+.daysneeded{
+ font-size: 17px;
+ color: #CFB53B ;
+ font-family: poppins;
+}
+
+.days{
+ width: 70px;
+ height: 70px;
+ background-color: #2c2c2c ;
+ border: solid #CFB53B ;
+ align-self: center;
+ color: whitesmoke;
+ font-size: 25px;
+ font-family: poppins;
+ text-align: center;
+}
+
+.submitpayment{
+ padding: auto;;
+ width: 150px;
+ align-self: center;
+ height: 60px;
+ font-family: poppins;
+ background-color: #CFB53B;
+ color: #292929;
+ border: solid #CFB53B 1px;
+ font-size: 25px;
+}
+
+
