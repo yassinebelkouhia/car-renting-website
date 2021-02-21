@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+[data-tab-content] {
+ display: none;
+}
+
+.active[data-tab-content] {
+ display: block;
+}
+
+body {
+ padding: 0;
+ margin: 0;
+ background-color: #CFB53B;
+}
+
+.tabs {
+ display: flex;
+ justify-content: space-around;
+ list-style-type: none;
+ margin-top: 30px;
+ margin-bottom: 30px;
+ padding: 50px;
+ padding-bottom: 30px;
+ color: #292929;
+ font-family: poppins;
+ font-size: large;
+}
+
+.tab {
+ cursor: pointer;
+ padding: 10px;
+ padding-top: 2px;
+ padding-bottom: 2px;
+}
+
+.tab.active {
+ border: solid #292929 1px;
+}
+
+
+.tab-content {
+ margin-left: 20px;
+ margin-right: 20px;
+ /* color: whitesmoke; */
+ display: flex;
+ justify-content: center;
+ flex-direction: row;
+}

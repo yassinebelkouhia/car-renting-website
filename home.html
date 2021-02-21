@@ -13,18 +13,22 @@
  <title>Home</title>
 </head>
 <body>
- <section class="one">
+ <section id="one" class="one">
   <div class="navigation">
    <img src="images/logo.png" alt="" class="logo">
    <ul>
-    <li><a class="list" href="home.html">Home</a></li>
+    <li><a class="list" href="#homeone">Home</a></li>
     <li><a class="list" href="#Gallery">Gallery</a></li>
     <li><a class="list" href="#ress">Reservation</a></li>
     <li><a class="list" href="#cus">Contact Us</a></li>
   </ul>
   </div>
 
-  <div class="content1">
+  <div class="onelogo">
+    <img src="images/logo.png" alt="" class="onel">
+  </div>
+
+  <div id="homeone" class="content1">
    <div class="content1text">
     <h1 class="content1h"><span class="goldentext">Affordability</span> at your fingertip</h1>
     <p class="content1par"> <span class="goldentext">Luxury vehicules</span> at low-cost starts <span class="goldentext">10&euro;/day</span>  </p>
@@ -622,8 +626,8 @@
    <div class="totaleprice">
     <div class="netprice"><h class="netp"><span id="netpricee">11.4</span> Euros</h></div>
     <h class="daysneeded">For how many days you want the vehicule ?</h>
-    <input type="text" min="1" id="days" class="days">
-    <button class="submitpayment" id="submitpayment">Reserve it</button>
+    <input  id="days" class="days">
+    <button onclick="allBtn(0)" class="submitpayment" id="submitpayment">Reserve it</button>
    </div>
   </div>
  </section>
@@ -643,8 +647,8 @@
    <div class="totaleprice">
     <div class="netprice"><h class="netp"><span id="netpricee">10.5</span> Euros</h></div>
     <h class="daysneeded">For how many days you want the vehicule ?</h>
-    <input type="texy" min="1" id="days" class="days">
-    <button class="submitpayment" id="submitpayment">Reserve it</button>
+    <input id="days" class="days">
+    <button onclick="allBtn(1)" class="submitpayment" id="submitpayment">Reserve it</button>
    </div>
   </div>
  </section>
@@ -664,8 +668,8 @@
    <div class="totaleprice">
     <div class="netprice"><h class="netp"><span id="netpricee">14.88</span> Euros</h></div>
     <h class="daysneeded">For how many days you want the vehicule ?</h>
-    <input type="text id="days" class="days">
-    <button class="submitpayment" id="submitpayment">Reserve it</button>
+    <input id="days" class="days">
+    <button onclick="allBtn(2)" class="submitpayment" id="submitpayment">Reserve it</button>
    </div>
   </div>
  </section>
@@ -684,8 +688,8 @@
    <div class="totaleprice">
     <div class="netprice"><h class="netp"><span id="netpricee">15.36</span> Euros</h></div>
     <h class="daysneeded">For how many days you want the vehicule ?</h>
-    <input type="text id="days" class="days">
-    <button class="submitpayment" id="submitpayment">Reserve it</button>
+    <input  id="days" class="days">
+    <button onclick="allBtn(3)" class="submitpayment" id="submitpayment">Reserve it</button>
    </div>
   </div>
  </section>
@@ -705,8 +709,8 @@
    <div class="totaleprice">
     <div class="netprice"><h class="netp"><span id="netpricee">15.96</span> Euros</h></div>
     <h class="daysneeded">For how many days you want the vehicule ?</h>
-    <input type="text id="days" class="days">
-    <button class="submitpayment" id="submitpayment">Reserve it</button>
+    <input id="days" class="days">
+    <button onclick="allBtn(4)" class="submitpayment" id="submitpayment">Reserve it</button>
    </div>
   </div>
  </section>
@@ -726,8 +730,8 @@
    <div class="totaleprice">
     <div class="netprice"><h class="netp"><span id="netpricee">16.8</span> Euros</h></div>
     <h class="daysneeded">For how many days you want the vehicule ?</h>
-    <input type="text id="days" class="days">
-    <button class="submitpayment" id="submitpayment">Reserve it</button>
+    <input  id="days" class="days">
+    <button onclick="allBtn(5)" class="submitpayment" id="submitpayment">Reserve it</button>
    </div>
   </div>
  </section>
@@ -747,8 +751,8 @@
    <div class="totaleprice">
     <div class="netprice"><h class="netp"><span id="netpricee">15.26</span> Euros</h></div>
     <h class="daysneeded">For how many days you want the vehicule ?</h>
-    <input type="text id="days" class="days">
-    <button class="submitpayment" id="submitpayment">Reserve it</button>
+    <input id="days" class="days">
+    <button onclick="allBtn(6)" class="submitpayment" id="submitpayment">Reserve it</button>
    </div>
   </div>
  </section>
@@ -768,8 +772,8 @@
    <div class="totaleprice">
     <div class="netprice"><h class="netp"><span id="netpricee">15.96</span> Euros</h></div>
     <h class="daysneeded">For how many days you want the vehicule ?</h>
-    <input type="text id="days" class="days">
-    <button class="submitpayment" id="submitpayment">Reserve it</button>
+    <input  id="days" class="days">
+    <button onclick="allBtn(7)" class="submitpayment" id="submitpayment">Reserve it</button>
    </div>
   </div>
  </section>
@@ -789,8 +793,8 @@
    <div class="totaleprice">
     <div class="netprice"><h class="netp"><span id="netpricee">16.94</span> Euros</h></div>
     <h class="daysneeded">For how many days you want the vehicule ?</h>
-    <input type="text id="days" class="days">
-    <button class="submitpayment" id="submitpayment">Reserve it</button>
+    <input id="days" class="days">
+    <button onclick="allBtn(8)" class="submitpayment" id="submitpayment">Reserve it</button>
    </div>
   </div>
  </section>
@@ -810,8 +814,8 @@
    <div class="totaleprice">
     <div class="netprice"><h class="netp"><span id="netpricee">25.6</span> Euros</h></div>
     <h class="daysneeded">For how many days you want the vehicule ?</h>
-    <input type="text id="days" class="days">
-    <button class="submitpayment" id="submitpayment">Reserve it</button>
+    <input  id="days" class="days">
+    <button onclick="allBtn(9)" class="submitpayment" id="submitpayment">Reserve it</button>
    </div>
   </div>
  </section>
@@ -831,8 +835,8 @@
    <div class="totaleprice">
     <div class="netprice"><h class="netp"><span id="netpricee">26.6</span> Euros</h></div>
     <h class="daysneeded">For how many days you want the vehicule ?</h>
-    <input type="text id="days" class="days">
-    <button class="submitpayment" id="submitpayment">Reserve it</button>
+    <input  id="days" class="days">
+    <button onclick="allBtn(10)" class="submitpayment" id="submitpayment">Reserve it</button>
    </div>
   </div>
  </section>
@@ -852,8 +856,8 @@
    <div class="totaleprice">
     <div class="netprice"><h class="netp"><span id="netpricee">28</span> Euros</h></div>
     <h class="daysneeded">For how many days you want the vehicule ?</h>
-    <input type="text id="days" class="days">
-    <button class="submitpayment" id="submitpayment">Reserve it</button>
+    <input  id="days" class="days">
+    <button onclick="allBtn(11)" class="submitpayment" id="submitpayment">Reserve it</button>
    </div>
   </div>
  </section>
@@ -873,8 +877,8 @@
    <div class="totaleprice">
     <div class="netprice"><h class="netp"><span id="netpricee">19.36</span> Euros</h></div>
     <h class="daysneeded">For how many days you want the vehicule ?</h>
-    <input type="text id="days" class="days">
-    <button class="submitpayment" id="submitpayment">Reserve it</button>
+    <input  id="days" class="days">
+    <button onclick="allBtn(12)" class="submitpayment" id="submitpayment">Reserve it</button>
    </div>
   </div>
  </section>
@@ -894,8 +898,8 @@
    <div class="totaleprice">
     <div class="netprice"><h class="netp"><span id="netpricee">350</span> Euros</h></div>
     <h class="daysneeded">For how many days you want the vehicule ?</h>
-    <input type="text id="days" class="days">
-    <button class="submitpayment" id="submitpayment">Reserve it</button>
+    <input id="days" class="days">
+    <button onclick="allBtn(13)" class="submitpayment" id="submitpayment">Reserve it</button>
    </div>
   </div>
  </section>
@@ -915,8 +919,8 @@
    <div class="totaleprice">
     <div class="netprice"><h class="netp"><span id="netpricee">1089</span> Euros</h></div>
     <h class="daysneeded">For how many days you want the vehicule ?</h>
-    <input type="text id="days" class="days">
-    <button class="submitpayment" id="submitpayment">Reserve it</button>
+    <input  id="days" class="days">
+    <button  onclick="allBtn(14)"class="submitpayment" id="submitpayment">Reserve it</button>
    </div>
   </div>
  </section>
@@ -936,11 +940,35 @@
    <div class="totaleprice">
     <div class="netprice"><h class="netp"><span id="netpricee">1026</span> Euros</h></div>
     <h class="daysneeded">For how many days you want the vehicule ?</h>
-    <input type="text id="days" class="days">
-    <button class="submitpayment" id="submitpayment">Reserve it</button>
+    <input id="days" class="days">
+    <button onclick="allBtn(15)" class="submitpayment" id="submitpayment">Reserve it</button>
    </div>
   </div>
  </section>
+
+<!-- popup -->
+
+
+  <div  id="fivePopup" class="popup1">
+   <div class="plogo">
+    <img id="closerepopup" src="images/logo.png" alt="" class="logop">
+    <div class="plogos">
+     <img src="images/facebook.png" alt="" class="plogosp">
+     <img src="images/twitter.png" alt="" class="plogosp">
+     <img src="images/youtube.png" alt="" class="plogosp">
+    </div>
+   </div>
+
+   <div class="popupprice">
+    <h class="popuph">The Better Way To Ride</h>
+    <h class="popuph1">Total Price: <span id="popupnet"></span> Euros</h>
+    <h class="popuph2">The closest pick up location is waiting for you</h>
+    <button id="popupcontact" class="popupcontact"> <a href="#cus" class="cuspu"> Contact us</a></button>
+   </div>
+  </div>
+
+<!-- popup -->
+
 
  <section class="six" >
    <div class="sixheadercontainer" id="cus">
@@ -948,7 +976,27 @@
      <h4 class="sixsubheader">Feel free to contact us</h4>
    </div>
    <div class="contactcontainer">
-     <div class="local"><img src="images/backgroundmap.jpg" alt="" class="backgroundmap"></div>
+
+     <div class="contactD">
+       <div class="d1">
+         <div class="contactlogo">
+          <img src="images/twitter.png" class="clogo" alt="">
+          <img src="images/phone.png" class="clogo" alt="">
+          <img src="images/mail.png" class="clogo" alt="">
+         </div>
+         <div class="socialdetails">
+          <h class="dtext"> OfficialKri</h>
+          <h class="dtext"> 0(363)0-35035-435</h>
+          <h class="dtext"> Kri@godknowswhat.meh</h>
+         </div>
+       </div>
+       <div class="sociallogos">
+        <img src="images/twitter.png" class="clogos" alt="">
+        <img src="images/facebook.png" class="clogos" alt="">
+        <img src="images/instagram.png" class="clogos" alt="">
+        <img src="images/youtube.png" class="clogos" alt="">
+       </div>
+     </div>
      <div class="contactdata">
       <label for="fname">Full Name</label>
       <input type="text" id="fname" name="fullname" placeholder="Full Name ..">
@@ -964,15 +1012,37 @@
       <label for="message">Message</label>
       <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
   
-      <input type="submit" value="Submit">
+      <input id="submitcontact" type="submit" value="Submit">
      </div>
    </div>
  </section>
 
 
+ <!-- popup2 -->
+  <div id="contactpopup" class="popup2">
+   <div class="plogo">
+    <img src="images/logo.png" id="closerectpopup" alt="" class="logop">
+    <div class="plogos">
+     <img src="images/facebook.png" alt="" class="plogosp">
+     <img src="images/twitter.png" alt="" class="plogosp">
+     <img src="images/youtube.png" alt="" class="plogosp">
+    </div>
+   </div>
+
+   <div class="popupinfos">
+    <h class="popupinf">Full name : <span id="fnameo"></span> </h>
+    <h class="popupinf">Email : <span id="emailo"></span> </h>
+    <h class="popupinf">Subject : <span id="subjecto"></span> </h>
+    <h class="popupinf">Message : <span id="messageo"></span> </h>
+    <h class="thanku">Have a safe ride !</h>
+   </div>
+  </div>
+
+ <!-- popup2 -->
+
   <section class="footer">
-    <div class="footerlogo"><img src="images/logo.png" alt="" class="ftrlogo"></div>
-    <div class="footerlogo"> <img src="images/instagram.png" alt="" class="flogo"> <img src="images/facebook.png" alt="" class="flogo"> <img src="images/youtube.png" alt="" class="flogo"> </div>
+    <div class="footerlogo"> <a href="#one"> <img src="images/logo.png" alt="" class="ftrlogo">  </a> </div>
+    <div class="footerlogo"> <img src="images/instagram.png" alt="" class="flogo"> <img src="images/twitter.png" alt="" class="flogo"> <img src="images/facebook.png" alt="" class="flogo"> <img src="images/youtube.png" alt="" class="flogo"> </div>
   </section>
 
 
