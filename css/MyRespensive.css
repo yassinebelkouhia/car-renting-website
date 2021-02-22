@@ -181,4 +181,9 @@
  font-size: 15px;
 }
 
+.optionimage{
+  width: 150%;
+  align-self: center;
+}
+
 }

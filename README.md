@@ -1,1 +1,1 @@
-<img src="kri.jpg" alt="">
+<img src="images/Kri.jpg" alt="">
